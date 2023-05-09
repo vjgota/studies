@@ -1,0 +1,9 @@
+.gota-body {
+    position: relative;
+    left: 200px;
+    top: -82px;
+    padding-bottom: 400px;
+    margin-right: 500px;
+    border: 5px groove #d1b26b;
+    background-color: rgb(255, 255, 255);
+}
