@@ -1,14 +1,10 @@
-import Header from "./comp/Header";
-import Navbar from "./comp/Navbar";
-import Basket from "./comp/Basket";
+import Info from "./comp/Info";
 
 
 function App() {
   return (
     <div className='gota-app-body'>
-      <Header/>
-      <Navbar/>
-      <Basket/>
+      <Info/>
     </div>
   );
 }
