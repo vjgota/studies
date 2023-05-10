@@ -129,3 +129,19 @@ body {
 .gota-font {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.gota-content {
+    -webkit-box-shadow: 0px 8px 29px -7px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 8px 29px -7px rgba(0,0,0,1);
+    box-shadow: 0px 8px 29px -7px rgba(0,0,0,1);
+    border-radius: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+    background-color: #0000001d;
+}
+
+.gota-h3 {
+    background-color: white;
+    color: black;
+}
