@@ -36,6 +36,7 @@ body {
 	height: 25px;
 	padding-left: 18px;
 	padding-right: 18px;
+	padding-bottom: 4px;
 	border-radius: 50px;
 	margin-left: 25px;
     margin-right: 25px;
@@ -118,11 +119,11 @@ body {
 }
 
 .fuck_wrapper {
-    background-color: red;
+    background-color: rgb(182, 180, 180);
     height: 400px;
     max-width: fit-content;
     border-radius: 5px;
-		overflow: hidden;
+		padding: 5px;
 }
 
 @media screen and (max-width: 700px){
