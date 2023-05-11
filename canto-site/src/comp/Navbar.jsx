@@ -1,16 +1,25 @@
 import React, { Component } from 'react'
-import './css/Navbar.css'
 
 export default class Navbar extends Component {
   render() {
     return (
-      <>
-        <ul className='navbar'>
-            <li className='nav.opt'>OPTION111</li>
-            <li className='nav.opt'>OPTION111</li>
-            <li className='nav.opt'>OPTION111</li>
-        </ul>
-      </>
+        <div>
+            <nav id='menu'>
+            <input type='checkbox' id='responsive-menu'/><label></label>
+            <ul>
+                <li><a href='http://'>início</a></li>
+                <li><a class='dropdown-arrow' href='http://'>produtos</a>
+                <ul class='sub-menus'>
+                    <li><a href='http://'>cabelos</a></li>
+                    <li><a href='http://'>acessórios</a></li>
+                    <li><a href='http://'>roupas</a></li>
+                </ul>
+                </li>
+                <li><a href='http://'>sobre nós</a></li>
+            </ul>
+            </nav>
+        </div>
+
     )
   }
 }
